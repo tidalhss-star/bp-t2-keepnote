@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://keepnote.shop/sitemap.xml
+Sitemap: https://keepnote.shop/sitemap-index.xml
