@@ -41,6 +41,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://keepnote.shop/posts/field_note-005-117c75r.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://keepnote.shop/posts/field_note-005-36xyts.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -66,12 +71,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://keepnote.shop/posts/guide-004-12gy09g.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://keepnote.shop/posts/guide-004-1iplwi8.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://keepnote.shop/posts/guide-004-oc6r8z.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://keepnote.shop/posts/major_compare-001-13jzfbu.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -121,6 +136,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://keepnote.shop/posts/myth-003-1c1o5am.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://keepnote.shop/posts/myth-003-1nsaqvy.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -147,6 +167,11 @@
   </url>
   <url>
     <loc>https://keepnote.shop/posts/qa-002-i52py3.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://keepnote.shop/posts/qa-002-tjvlm6.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
