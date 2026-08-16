@@ -1,20 +1,198 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>가이드 - 유흥 트렌드</title>
-    <meta name="description" content="서울을 중심으로 전국 다양한 유흥 업종의 최신 트렌드와 이용 방식 변화를 객관적인 데이터와 현장 관찰을 통해 정리한 정보 블로그입니다.">
-    <meta name="keywords" content="유흥 트렌드, 업종 트렌드, 지역별 유흥, 셔츠룸, 룸싸롱, 텐프로, 텐카페, 쩜오, 하이퍼블릭, 풀싸롱, 가라오케, 비즈니스클럽, 마사지, 펍, 트렌드 분석">
-    <link rel="canonical" href="https://keepnote.shop/blog-1.html">
-    <meta property="og:title" content="가이드 - 유흥 트렌드">
-    <meta property="og:description" content="서울을 중심으로 전국 다양한 유흥 업종의 최신 트렌드와 이용 방식 변화를 객관적인 데이터와 현장 관찰을 통해 정리한 정보 블로그입니다.">
-    <meta property="og:url" content="https://keepnote.shop/blog-1.html">
-    <meta property="og:type" content="website">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가이드 - 유흥 트렌드</title>
+  <meta name="description" content="서울을 중심으로 전국 다양한 유흥 업종의 최신 트렌드와 이용 방식 변화를 객관적인 데이터와 현장 관찰을 통해 정리한 정보 블로그입니다.">
+  <link rel="canonical" href="https://keepnote.shop/blog-1.html">
+  <meta property="og:title" content="가이드 - 유흥 트렌드">
+  <meta property="og:description" content="서울을 중심으로 전국 다양한 유흥 업종의 최신 트렌드와 이용 방식 변화를 객관적인 데이터와 현장 관찰을 통해 정리한 정보 블로그입니다.">
+  <meta property="og:url" content="https://keepnote.shop/blog-1.html">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ :root{
+ --primary:#2d2a26;
+ --secondary:#faf8f5;
+ --accent:#e07a5f;
+ --font-sans:system-ui, Inter, sans-serif;
+ }
+ body{
+ margin:0;
+ font-family:var(--font-sans);
+ background:var(--secondary);
+ color:var(--primary);
+ line-height:1.6;
+ }
+ .t-wrap-glet{
+ max-width:960px;
+ margin:0 auto;
+ padding:24px;
+ }
+ header{
+ position:sticky;
+ top:0;
+ background:var(--secondary);
+ border-bottom:1px solid var(--primary);
+ z-index:10;
+ }
+ .m-side-djzi{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:8px 0;
+ }
+ .v-wrap-evev{
+ font-size:1.4rem;
+ font-weight:600;
+ letter-spacing:-0.5px;
+ }
+ .x-item-up2e{
+ display:flex;
+ gap:16px;
+ }
+ .x-item-up2e a{
+ text-decoration:none;
+ color:var(--primary);
+ font-size:0.95rem;
+ border-bottom:2px solid transparent;
+ transition:border-color .2s;
+ }
+ .x-item-up2e a:hover{
+ border-color:var(--accent);
+ }
+ /* Hamburger */
+ #q-grid-6uvj{
+ display:none;
+ }
+ .q-grid-6uvj-label{
+ display:none;
+ font-size:1.5rem;
+ cursor:pointer;
+ }
+ @media (max-width:768px){
+ .x-item-up2e{
+ position:absolute;
+ top:100%;
+ left:0;
+ right:0;
+ background:var(--secondary);
+ flex-direction:column;
+ border-top:1px solid var(--primary);
+ display:none;
+ }
+ #q-grid-6uvj:checked + .x-item-up2e{
+ display:flex;
+ }
+ .q-grid-6uvj-label{
+ display:block;
+ }
+ }
+ /* Hero */
+ .m-txt-zr2j{
+ padding:48px 0;
+ text-align:left;
+ border-bottom:1px solid var(--primary);
+ }
+ .m-txt-zr2j h1{
+ font-size:2.4rem;
+ margin:0;
+ line-height:1.2;
+ position:relative;
+ left:-2px; /* hand‑crafted offset */
+ }
+ .m-txt-zr2j p{
+ margin-top:12px;
+ font-size:1rem;
+ color:var(--primary);
+ }
+ /* Section styles */
+ section{
+ margin-top:40px;
+ }
+ .v-side-yfnj-title{
+ font-size:1.6rem;
+ margin-bottom:16px;
+ position:relative;
+ left:-1px;
+ }
+ .k-box-0hfu{
+ display:grid;
+ grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
+ gap:16px;
+ }
+ .m-card-0xkd{
+ border:1px solid var(--primary);
+ padding:16px;
+ transition:transform .2s;
+ }
+ .m-card-0xkd:hover{
+ transform:translateY(-2px);
+ }
+ .k-btn-57sz{
+ width:100%;
+ border-collapse:collapse;
+ }
+ .k-btn-57sz th,
+ .k-btn-57sz td{
+ border:1px solid var(--primary);
+ padding:8px;
+ text-align:left;
+ }
+ .k-btn-57sz th{
+ background:var(--secondary);
+ }
+ /* FAQ */
+ .r-top-aqkd-item{
+ margin-bottom:24px;
+ }
+ .r-top-aqkd-question{
+ font-weight:600;
+ margin-bottom:8px;
+ }
+ .r-top-aqkd-answer{
+ margin-left:12px;
+ }
+ /* Author bio */
+ .q-list-yggi{
+ border-top:1px solid var(--primary);
+ padding-top:24px;
+ margin-top:40px;
+ font-size:0.9rem;
+ color:var(--primary);
+ }
+ .q-list-yggi strong{
+ color:var(--accent);
+ }
+ footer{
+ text-align:center;
+ padding:24px 0;
+ font-size:0.85rem;
+ color:var(--primary);
+ border-top:1px solid var(--primary);
+ margin-top:40px;
+ }
+ </style>
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
+  <div class="container">
+    <header class="t-wrap-glet">
+ <nav class="m-side-djzi">
+ <div class="v-wrap-evev">유흥 트렌드</div>
+ <input type="checkbox" id="q-grid-6uvj">
+ <label for="q-grid-6uvj" class="q-grid-6uvj-label">&#9776;</label>
+ <div class="x-item-up2e">
+ <a href="#">홈</a>
+ <a href="#">카테고리</a>
+ <a href="#">최신 글</a>
+ <a href="#">연락처</a>
+ </div>
+ <a href="posts.html">글 목록</a></nav>
+ </header>
+    <main>
+<header>
         <nav>
             <input type="checkbox" id="q-grid-6uvj">
             <label for="q-grid-6uvj" class="q-grid-6uvj-label">메뉴</label>
@@ -37,5 +215,7 @@
             <p>서울, 부산, 대구 등 지역별 유흥 업종의 트렌드를 분석하여 지역별 특징과 차이를 파악할 수 있습니다.</p>
         </section>
     </main>
+    </main>
+  </div>
 </body>
 </html>
