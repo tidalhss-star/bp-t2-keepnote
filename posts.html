@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>글 목록 (1/2) · t2-keepnote</title>
-  <meta name="description" content="t2-keepnote에 올라온 글 목록입니다.">
+  <title>글 목록 (1/2) · 유흥 트렌드</title>
+  <meta name="description" content="유흥 트렌드에 올라온 글 목록입니다.">
   <link rel="canonical" href="https://keepnote.shop/posts.html">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <style>
@@ -170,8 +170,15 @@
  margin-top:40px;
  }
  </style>
-  <meta property="og:title" content="글 목록 (1/2) · t2-keepnote">
-  <meta property="og:description" content="t2-keepnote에 올라온 글 목록입니다.">
+  <style data-post-index-reader-style="true">
+div[data-post-index-navigation="true"] { display:block !important; visibility:visible !important; position:fixed; right:16px; bottom:16px; z-index:1001; max-width:calc(100% - 32px); padding:0; text-align:right; }
+div[data-post-index-navigation="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:8px 14px; border:1px solid currentColor; border-radius:6px; background:Canvas; color:CanvasText; text-decoration:none; }
+nav.pager, nav.post-pager, nav[data-site-documents="true"] { display:flex !important; visibility:visible !important; flex-wrap:wrap; gap:12px; padding:16px 0; }
+nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:6px 10px; color:inherit; }
+:where(main, article, .content) :where(img), :where(body) > :where(img) { max-width:100%; height:auto; }
+</style>
+  <meta property="og:title" content="글 목록 (1/2) · 유흥 트렌드">
+  <meta property="og:description" content="유흥 트렌드에 올라온 글 목록입니다.">
   <meta property="og:url" content="https://keepnote.shop/posts.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
@@ -194,6 +201,7 @@
     <main>
       <h1>글 목록</h1>
       <p>전체 29개 · 1/2 페이지</p>
+      <nav data-site-documents="true" aria-label="사이트 문서" style="display:flex;flex-wrap:wrap;gap:12px;padding:16px 0"><a href="about.html">소개</a></nav>
       <ul class="post-list">
       <li class="post-item">
         <a class="post-item__link" href="posts/field_note-002-1jsx28d.html">권리금 2억 주고 들어와서 2억 받고 나간 홍대 가게, 계약서에 찍힌 날짜가 전부 설명합니다</a>
@@ -244,7 +252,7 @@
         <p class="post-item__summary">2023년 3월, 홍대 상수동 골목 하나에서 권리금 2억 원을 정리하고 나간 칵테일바가 있었어요. 저는 그 건물주 측 임대차 자문을 맡았던 사람인데요, 계약 해지 서류에 서명하는 날 그 사장님 표정</p>
       </li>
       <li class="post-item">
-        <a class="post-item__link" href="posts/major_compare-001-1kpn79m.html">유흥 트렌드 vs 유흥 트렌드 비교</a>
+        <a class="post-item__link" href="posts/major_compare-001-1kpn79m.html">유흥 트렌드 vs 유흥 트렌드 비교 — 어디가 더 좋을까? 비교 분석</a>
         <p class="post-item__summary">안녕하세요! 어떤 작업을 진행하시겠습니까?</p>
       </li>
       <li class="post-item">
@@ -252,7 +260,7 @@
         <p class="post-item__summary">월 매출 3천이면 장사 잘 되는 거 아닐까, 라고 생각하셨던 거 맞죠? ^^ 자영업 20년 차 형이 거기서 6개월 만에 문 닫은 이유를 곱씹어 보면, 숫자 뒤에 숨어 있는 원가 구조가 소름 끼칠 정</p>
       </li>
       <li class="post-item">
-        <a class="post-item__link" href="posts/major_compare-001-1oce9hg.html">형이 2023년 홍대 폐업 가게 사장들한테 원가 물어본 썰</a>
+        <a class="post-item__link" href="posts/major_compare-001-1oce9hg.html">형이 2023년 홍대 폐업 가게 사장들한테 원가 물어본 썰 — 단골의 배신</a>
         <p class="post-item__summary">2022년 12월 말, 홍대 뒷골목에서 4년째 운영하던 술집 사장님이 털어놓은 말이 아직도귓가에 맴돕니다. &quot;올해부터 장사가 안된다.&quot; 그때만 해도 그냥 예의상 한 말인 줄 알았는데, 1년 뒤 그 </p>
       </li>
       <li class="post-item">
@@ -282,5 +290,6 @@
     </nav>
     </main>
   </div>
+<script data-site-metrics>(function(){try{if(navigator.webdriver)return;var E="https://s.keepnote.shop/e",L=location,D=document,d=0;function s(t,k){try{var r="";try{r=D.referrer?new URL(D.referrer).hostname:""}catch(e){}navigator.sendBeacon(E,JSON.stringify({h:L.hostname,p:L.pathname,t:t,r:r,c:(L.search.match(/utm_campaign=([^&]*)/)||[])[1]||"",k:k||null}))}catch(e){}}function g(){if(!d){d=1;s("engaged")}}s("view");setTimeout(function(){if(D.visibilityState==="visible")g()},15000);addEventListener("scroll",function(){try{if(scrollY+innerHeight>D.documentElement.scrollHeight*.5)g()}catch(e){}},{passive:true});addEventListener("pointerdown",g,{passive:true});addEventListener("click",function(e){try{var a=e.target.closest("a[href]");if(!a)return;var u=String(a.href),m=/^(tel|sms|mailto):/i.exec(u),k=m?m[1].toLowerCase():"";if(k==="mailto")k="mail";if(!k&&/^https?:\/\/(t\.me|telegram\.me|open\.kakao\.com|pf\.kakao\.com|wa\.me|line\.me|m\.me)(\/|$)/i.test(u))k="messenger";if(k)s("lead",k)}catch(x){}},true);addEventListener("submit",function(){s("lead","form")},true)}catch(e){}})();</script>
 </body>
 </html>

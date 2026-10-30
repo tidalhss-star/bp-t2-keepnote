@@ -221,8 +221,14 @@
  margin-top:40px;
  }
  </style>
-</head>
-<body>
+<style data-post-index-reader-style="true">
+div[data-post-index-navigation="true"] { display:block !important; visibility:visible !important; position:fixed; right:16px; bottom:16px; z-index:1001; max-width:calc(100% - 32px); padding:0; text-align:right; }
+div[data-post-index-navigation="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:8px 14px; border:1px solid currentColor; border-radius:6px; background:Canvas; color:CanvasText; text-decoration:none; }
+nav.pager, nav.post-pager, nav[data-site-documents="true"] { display:flex !important; visibility:visible !important; flex-wrap:wrap; gap:12px; padding:16px 0; }
+nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:6px 10px; color:inherit; }
+:where(main, article, .content) :where(img), :where(body) > :where(img) { max-width:100%; height:auto; }
+</style></head>
+<body><div data-post-index-navigation="true" aria-label="글 목록 안내"><a href="posts.html">글 목록</a></div>
  <header class="t-wrap-glet">
  <nav class="m-side-djzi">
  <div class="v-wrap-evev">유흥 트렌드</div>
@@ -234,7 +240,7 @@
  <a href="#">최신 글</a>
  <a href="#">연락처</a>
  </div>
- <a href="posts.html">글 목록</a></nav>
+ </nav>
  </header>
 
  <main class="t-wrap-glet">
@@ -337,7 +343,7 @@
  <time datetime="2026-07-26">2026-07-26</time>
  </div>
  <h4 style="font-size:1.1rem;font-weight:700;color:inherit;margin-bottom:8px;line-height:1.4">홍대에서 사라진 가게들 메뉴 원가 전부 따져봤더니 반전이 있었습니다 ^^</h4>
- <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">"사장님, 이 시그니처 라떼는요, 그 원가가 진짜 얼마 정도 나와요?"그때 사장님이 살짝 웃으면서 "그건 비밀이지" 하고 화제를 돌렸던 게 2023년 봄이었어요. 그해 홍대에서 테이블 4개짜리 이탈리안을 운영하던 형이 있었는데, 파스타 한 그릇에 18,500원 받았거든</p>
+ <p style="font-size:0.875rem;opacity:.8;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">&quot;사장님, 이 시그니처 라떼는요, 그 원가가 진짜 얼마 정도 나와요?&quot;그때 사장님이 살짝 웃으면서 &quot;그건 비밀이지&quot; 하고 화제를 돌렸던 게 2023년 봄이었어요.</p>
  </div>
  <a href="posts/guide-001-sty7ou.html" style="align-self:flex-start;text-decoration:none;color:inherit;opacity:.85;font-size:0.9rem;font-weight:600;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.85'">자세히 보기 →</a>
  </article>
@@ -347,5 +353,6 @@
 <footer class="t-wrap-glet">
  © 2026 keepnote.shop. All rights reserved.
  </footer>
+<script data-site-metrics>(function(){try{if(navigator.webdriver)return;var E="https://s.keepnote.shop/e",L=location,D=document,d=0;function s(t,k){try{var r="";try{r=D.referrer?new URL(D.referrer).hostname:""}catch(e){}navigator.sendBeacon(E,JSON.stringify({h:L.hostname,p:L.pathname,t:t,r:r,c:(L.search.match(/utm_campaign=([^&]*)/)||[])[1]||"",k:k||null}))}catch(e){}}function g(){if(!d){d=1;s("engaged")}}s("view");setTimeout(function(){if(D.visibilityState==="visible")g()},15000);addEventListener("scroll",function(){try{if(scrollY+innerHeight>D.documentElement.scrollHeight*.5)g()}catch(e){}},{passive:true});addEventListener("pointerdown",g,{passive:true});addEventListener("click",function(e){try{var a=e.target.closest("a[href]");if(!a)return;var u=String(a.href),m=/^(tel|sms|mailto):/i.exec(u),k=m?m[1].toLowerCase():"";if(k==="mailto")k="mail";if(!k&&/^https?:\/\/(t\.me|telegram\.me|open\.kakao\.com|pf\.kakao\.com|wa\.me|line\.me|m\.me)(\/|$)/i.test(u))k="messenger";if(k)s("lead",k)}catch(x){}},true);addEventListener("submit",function(){s("lead","form")},true)}catch(e){}})();</script>
 </body>
 </html>
